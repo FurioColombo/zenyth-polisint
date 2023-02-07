@@ -4,5 +4,5 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/zenyth_polisint/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/ https://github.com/FurioColombo/zenythPolisint/" : "/",
 };
