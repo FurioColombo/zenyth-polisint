@@ -120,9 +120,10 @@
       </div>
     </div>
     <h1 :style="titleComputedStyle">Demo</h1>
-    <div class="controls_section">
+    <div class="demo_section">
       <div class="controls_section_col_1" :style="controls_section_col_1_style"></div>
-      <div class="controls_section_col_2"></div>
+      <div class="demo_section_col_2">
+        Song demo create using exclusively signature sounds from ZenytPolisint available <a href="https://www.youtube.com/watch?v=cjMXcdHnGRU">here</a>    </div>
       <div class="controls_section_col_3" :style="controls_section_col_3_style"></div>
     </div>
 
@@ -180,7 +181,7 @@
     <div class="repo_description">
       A live demo of the PolisinT is available <a href="https://furiocolombo.github.io/">here</a>, hosting provided by
       GitHub.<br>
-      All code is free and available <a href="https://github.com/00sconosciuto00/actamVue">here</a>. Feel free to fork
+      All code is free and available <a href="https://github.com/FurioColombo/FurioColombo.github.io">here</a>. Feel free to fork
       the repository and play with it!
     </div>
 
@@ -313,6 +314,30 @@ h1 {
   margin-bottom: 5vw;
 }
 
+
+.demo_section {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 1.8fr 5fr 1.8fr;
+  height: 20%;
+  width: 100%;
+  font-family: monospace;
+  font-size: 1vw;
+}
+
+.demo_section_col_2 {
+  position: relative;
+  top: 40%;
+  margin-top: -1vw;
+  align-self: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  scale: 95%;
+  font-size: 1vw;
+}
+
 .ul {
   list-style-type: circle;
 }
@@ -321,7 +346,7 @@ h1 {
   display: inline-grid;
   grid-template-rows: 0.12fr 2fr 2fr;
   width: 100%;
-  height: 145%;
+  height: 185%;
 }
 
 .routing_description {

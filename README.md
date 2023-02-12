@@ -1,15 +1,16 @@
-# PolisinT
+# Zenyth PolisinT
 
-[PolisinT](https://furiocolombo.github.io/zenyth_polisint/) is a semi-modular online polyphonic synthesizer available built using Tone.js, a JavaScript library for audio synthesis and composition and the framework Vue.
+[PolisinT](https://furiocolombo.github.io/) is a semi-modular online polyphonic synthesizer available built using Tone.js, a JavaScript library for audio synthesis and composition and the framework Vue.
 
-![Splash Image](https://github.com/FurioColombo/zenyth_polisint/blob/main/assets/zenith_polisint.png)
+![Splash Image](https://github.com/FurioColombo/FurioColombo.github.io/blob/main/assets/zenith_polisint.png)
 
 ## Usage
 We provide two solutions in order to use the PolisinT:
-  - You can find it online [here](https://furiocolombo.github.io/zenyth_polisint/)
+  - You can find it online [here](https://furiocolombo.github.io/)
   - You can clone this repository and run it on your own machine. Once installed the needed [dependencies](#Dependencies), run the following command in the project folder:
-  1. `npm run install`
-  2. `npm run build` or `npm run serve` respectively for distribution or developement builds
+  1. `npm install`
+  2. `npm update`
+  3. `npm run build` or `npm run serve` respectively for distribution or developement builds
 
 ## Concept
 
@@ -19,7 +20,7 @@ Offering articulate routing options was a priority, therefore both code and grap
 
 
 ## Features
-PolisinT is roughly composed of six sections:
+ZenyT PolisinT is roughly composed of six sections:
 
 - Oscillators: 
   - Custom polyphony was implemented from scratch;
@@ -64,7 +65,6 @@ PolisinT is roughly composed of six sections:
 ## Shortcuts
   - Shift-Clicks are used to delete elements. For oscillators can be disconnected and effects can be set to bypass;
   - When playing using keyboard input, 'z' and 'x' computer keys can be used to change octave;
-
 
 ## Dependencies
 - [Tone.js](https://tonejs.github.io) - Sounds and Effects

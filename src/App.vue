@@ -16,7 +16,12 @@ export default {
   },
   methods: {
     openAbout() {
-      window.open("http://localhost:8080/about")
+      let routeData = this.$router.resolve({
+        path: '/about',
+        query: {}
+      });
+      window.open(routeData.href, '_blank');
+      // window.open("http://localhost:8080/about") todo: about page routing working only on localhost
     }
   }
 };

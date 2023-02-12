@@ -8,7 +8,6 @@ const vol_damp_factor = 0.5;
 
 export default class MyPolySynth {
     constructor(synthType = "", destination = null, nVoices = 16) {
-        console.log("CONSTRUCTOR HAS BEEN CALLED")
 
         this.destination = destination;
 
@@ -259,10 +258,7 @@ export default class MyPolySynth {
                         }
                     }
                 }
-                setTimeout(() => {
-                    voice.synth.triggerRelease(Tone.now())
-                    voice.noise.stop()
-                }, this.modulatorsData.envelope.vol.parameters.release * 1000)
+
             }
         }
     }
