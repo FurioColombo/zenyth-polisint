@@ -19,5 +19,10 @@ pnpm-debug.log*
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?   
+*.sw?
+
+jsconfig.json
+babel.config.js
+package-lock.json
 node_modules
+dist
