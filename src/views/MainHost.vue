@@ -12,7 +12,6 @@
         @noteUp="noteUpHandle"
       />
     </div>
-    <LFO :key="1"  ></LFO>
   </div>
 </template>
 
@@ -23,13 +22,11 @@ import FilterHost from "./Synth/Filters/FilterHost.vue";
 import FxHost from "./Synth/Effects/FxHost.vue";
 import ToolHost from "./Synth/Tools/ToolsHost.vue";
 import ModHost from "./Synth/Modulators/ModHost.vue"; // Envelope Strip
-import LFO from "@/views/Synth/Modulators/Lfo.vue"; // todo: remove
 import PianoKeyboard from "./Synth/Keyboard/PianoKeyboard.vue";
 
 export default {
   name: "mainHost",
   components: {
-    LFO, // todo : delete from here
     OscHost,
     FilterHost,
     FxHost,

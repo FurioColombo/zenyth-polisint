@@ -57,5 +57,4 @@ app.config.globalProperties.isDraggable = {
     lfo: {}
 }
 
-
 app.mount('#app')
