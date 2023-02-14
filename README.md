@@ -1,22 +1,19 @@
 # Zenyth PolisinT
 
 [Zenyth PolisinT](https://furiocolombo.github.io/zenyth-polisint/) is a javascript semi-modular polyphonic synthesizer powered by Tone.js and implemented using the framework Vue. <br>
-Zenyth is thought as a playful yet powerful tool to to discover modular synthesis. Its lighthearted exploration-based interface encourages the user to discover its functionalities by trying himself all blocks and routing options. It features four tipes of synthesis engines, a noise generator, three filter chains, and three effects chains. On top of that five dynamically assignables Modulators and a main ADSR Envelope allow to shape the sound further and produce crazy noises.
+Zenyth is thought as a playful yet powerful tool to to discover modular synthesis. Its lighthearted exploration-based interface encourages the user to discover its functionalities by trying himself all blocks and routing options.
 
 
 <p align="center">
     <img width="80%" src="https://github.com/FurioColombo/zenyth-polisint/blob/main/assets/zenith_polisint.png" alt="Splash Image">
 </p>
 
-
 <p align="center">
-[Presentation Video](https://www.youtube.com/watch?v=3jTYMbAtMqI)
+    <a href="https://www.youtube.com/watch?v=3jTYMbAtMqI">Presentation Video</a>
     <br>
 [Demo](https://www.youtube.com/watch?v=cjMXcdHnGRU)
+    <a href="https://www.youtube.com/watch?v=cjMXcdHnGRU">Demo</a>
 </p>
-
-
-  
 <br>
 
 
