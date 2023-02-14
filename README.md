@@ -5,17 +5,13 @@ Zenyth is thought as a playful yet powerful tool to to discover modular synthesi
 
 
 <p align="center">
-    <img width="80%" src="[http://material-bread.org/logo-shadow.svg](https://github.com/FurioColombo/FurioColombo.github.io/blob/main/assets/zenith_polisint.png)" alt="Splash Image">
+    <img width="80%" src="https://github.com/FurioColombo/zenyth-polisint/blob/main/assets/zenith_polisint.png" alt="Splash Image">
   
 [Presentation Video](https://www.youtube.com/watch?v=3jTYMbAtMqI)
+    <br>
 [Demo](https://www.youtube.com/watch?v=cjMXcdHnGRU)
   
 </p>
-
-![Splash Image](https://github.com/FurioColombo/FurioColombo.github.io/blob/main/assets/zenith_polisint.png)
-
-[Presentation Video](https://www.youtube.com/watch?v=3jTYMbAtMqI)
-[Demo](https://www.youtube.com/watch?v=cjMXcdHnGRU)
 
   
 <br>
