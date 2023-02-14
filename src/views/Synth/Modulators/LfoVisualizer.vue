@@ -13,7 +13,6 @@ const triValsBuffer = new Array(qualFactor).fill(0);
 const sqValsBuffer = new Array(qualFactor).fill(0);
 const sawValsBuffer = new Array(qualFactor).fill(0);
 
-//todo: rmv real audio
 // todo: remap dept in -0.5 + 0.5 range
 // todo: start only when needs to be visualized
 
@@ -23,8 +22,6 @@ export default {
   data() {
     return {
       timing: 10,
-      //freq: this.freq,
-      //depth: this.depth,
       intervalId: "",
       waveform: this.wave
     }

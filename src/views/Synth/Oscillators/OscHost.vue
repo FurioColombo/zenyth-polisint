@@ -30,8 +30,7 @@
 
 <script>
 import Osc from "./Osc.vue";
-import Vue from "vue";
-import {isProxy, toRaw} from "vue";
+import { toRaw } from "vue";
 
 export default {
   components: {

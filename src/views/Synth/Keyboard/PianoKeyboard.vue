@@ -31,8 +31,6 @@
 <script>
 import MIDIKeyboard from "./MIDIKeyboard.vue";
 import Octave from "./Octave.vue";
-import * as Tone from "tone";
-
 
 export default {
   name: "PianoKeyboard",

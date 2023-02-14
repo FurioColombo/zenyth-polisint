@@ -6,7 +6,7 @@
 
 <script>
 import * as Tone from "tone";
-import { dbToGain, gainToDb } from "tone";
+import { dbToGain } from "tone";
 
 export default {
   data() {

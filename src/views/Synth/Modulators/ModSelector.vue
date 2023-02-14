@@ -32,9 +32,6 @@
 </template>
 
 <script>
-import * as Tone from "tone";
-import { watch } from 'vue';
-
 export default {
   inject: ['dropFeedback'],
   props: [],

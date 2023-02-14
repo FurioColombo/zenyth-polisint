@@ -1,9 +1,8 @@
 import {Synth, Envelope, Gain, Meter, Frequency, LFO} from 'tone'
 import {nextTick} from 'vue';
 import * as Tone from 'tone'
-import {isProxy, toRaw} from 'vue';
+import { toRaw} from 'vue';
 
-const max_partials_num = 50;
 const vol_damp_factor = 0.5;
 
 export default class MyPolySynth {

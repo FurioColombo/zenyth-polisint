@@ -10,7 +10,7 @@
 
 <script>
 import { Meter } from "tone";
-import { dbToGain, gainToDb } from "tone";
+import { dbToGain } from "tone";
 import * as Tone from "tone";
 
 export default {

@@ -5,12 +5,13 @@
         <Meter/>
     </div>
 </template>
-<!-- ./Tools/Meter.vue../Meter.vue -->
+
 <script>
     import * as Tone from "tone";
     import Meter from './Meter.vue'
     import Oscilloscope from './Oscilloscope.vue'
     import SpecAnalyzer from './SpecAnalyzer.vue'
+
     export default {
     name: "ToolsHost",
     components: {

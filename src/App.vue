@@ -23,14 +23,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin: auto;
-}
-
-.app_logo {
-  width: 10vw;
-  margin-bottom: 1vw;
-  object-fit: scale-down;
 }
 
 nav {

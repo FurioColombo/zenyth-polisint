@@ -1,7 +1,14 @@
 <template>
   <div class="appContainer" @mouseup="handleMouseUp" @mousemove="handleMouseMove">
-    <div class="grid">
-    <img className="app_logo" src="@/img/zenyth_logo.png" draggable="false">
+    <div class="content_grid">
+    <div class="info_column" :style="infoColumn">
+      <img className="app_logo" src="@/img/zenyth_logo.png" draggable="false">
+      <div class="info_column_items" :style="infoColumnsItemsSection">
+        <div class="info_column_item" :style="infoColumnItem" @click="infoBtnClick">INFO</div>
+        <div class="info_column_item" :style="infoColumnItem" @click="demoBtnClick">DEMO</div>
+        <div class="info_column_item" :style="infoColumnItem" @click="songBtnClick">SONG</div>
+      </div>
+    </div>
     <div class="mainHost">
       <OscHost ref="oscHost" @newOsc="handleNewOsc" />
       <FilterHost ref="filterHost" @filterInitialized="initOscConnections"/>
@@ -47,6 +54,21 @@ export default {
     Tone.Transport.start("+0.1")
   },
 
+  computed: {
+    infoColumnsItemsSection(){
+      return {
+        backgroundColor: this.colors.azure.glow,
+        opacity: 0.7,
+      }
+    },
+    infoColumnItem(){
+      return {
+        color: this.colors.gray.dark,
+        opacity: 0.8,
+      }
+    }
+  },
+
   methods: {
     // -------------- INIT ROUTING (connections) ------------
     initOscConnections(){
@@ -79,6 +101,18 @@ export default {
 
 
     noteUpHandle(note) {
+
+    },
+
+    // ----------- USER INTERACTION ----------
+    infoBtnClick(){
+      window.open("/about")
+    },
+    demoBtnClick(){
+      window.open('https://www.youtube.com/watch?v=3jTYMbAtMqI', '_blank').focus();
+    },
+    songBtnClick(){
+      window.open('https://www.youtube.com/watch?v=cjMXcdHnGRU', '_blank').focus();
     },
 
   },
@@ -86,25 +120,59 @@ export default {
 </script>
 
 <style>
+.content_grid{
+  display: grid;
+  width: 100%;
+  padding: 4vw;
+  box-sizing: border-box;
+  grid-template-columns: 10% 85%;
+  justify-content: center;
+  justify-items: center;
+}
+
+.info_column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.app_logo {
+  flex: 1;
+  width: 13vw;
+  margin-bottom: 1vw;
+  object-fit: scale-down;
+}
+
+.info_column_items {
+  flex: 3.5;
+  margin: 1vw;
+  padding-top: 1.8vw;
+  box-sizing: border-box;
+  height: 100%;
+
+}
+
+.info_column_item {
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+  align-self: center;
+  font-size: 1vw;
+}
+
 .mainHost {
   display: grid; /* no more flex display because we need Env Strip to be longer */
   grid-template-rows: 55% 30% 15%; /* grid display row sizes*/
   grid-template-columns: 20% 55% 25%; /*  ...   ...   column sizes fr is like unit */
-  width: 100%;
+  width: 85%;
   justify-content: center;
   aspect-ratio: 4 / 3;
   background-color: transparent;
 }
 .appContainer {
   text-align: center;
-  width: 80vw;
-  height: 100vh;
+  width: 100%;
+  height: 80%;
   margin: auto;
 }
-.grid{
-  display: grid;
-    grid-template-columns: 15% 85%;
-    justify-content: center;
-    justify-items: center;
-}
+
 </style>

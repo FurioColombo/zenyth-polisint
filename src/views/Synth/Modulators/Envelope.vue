@@ -10,13 +10,7 @@
 </template>
 
 <script>
-import {transcode} from "buffer";
-import * as Tone from "tone";
-import ToolsHost from "../Tools/ToolsHost.vue";
 import Knobs from "./Knobs.vue";
-import VolEnvelope from "@/views/Synth/Modulators/VolEnvelope.vue";
-import Lfo from "@/views/Synth/Modulators/Lfo.vue";
-import ModSelector from "@/views/Synth/Modulators/ModSelector.vue";
 import EnvelopeVisualizer from "./EnvelopeVisualizer.vue";
 
 export default {

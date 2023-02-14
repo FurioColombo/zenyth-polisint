@@ -26,12 +26,11 @@
 </template>
 
 <script>
-import * as Tone from "tone";
 import Envelope from "./Envelope.vue";
 import Lfo from "./Lfo.vue";
 import VolEnvelope from "./VolEnvelope.vue";
 import ModSelector from "./ModSelector.vue";
-import { isProxy, toRaw } from 'vue';
+import { toRaw } from 'vue';
 
 export default {
   components: {

@@ -20,8 +20,6 @@
 <script>
 // I want to modify a variable of a vue component from its father that is a vue component too
 import Filter from './Filter.vue'
-import {getDestination} from "tone";
-import {isProxy, toRaw} from "vue";
 
 const filterTypes = ["highpass", "peaking", "lowpass"]
 

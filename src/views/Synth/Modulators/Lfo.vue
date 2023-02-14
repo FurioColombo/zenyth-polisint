@@ -28,9 +28,7 @@
 
 <script>
 import LfoVisualizer from "@/views/Synth/Modulators/LfoVisualizer";
-import * as Tone from "tone";
 import Knobs from "./Knobs.vue";
-import { toRaw } from "vue";
 
 const waveforms = ['sine', 'triangle', 'square', 'sawtooth']
 export default {

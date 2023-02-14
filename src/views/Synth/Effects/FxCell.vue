@@ -17,8 +17,7 @@
 <script>
 import { isSVGTag } from '@vue/shared';
 import MyEffect from "@/views/Synth/Effects/MyFx";
-import {Gain, getDestination} from "tone";
-import { nextTick } from "vue";
+import {Gain} from "tone";
 
 const types = ['none', 'reverb', 'delay', 'distortion', 'vibrato', 'pan', 'chorus'];
 const Fx_colors = ['transparent', 'lightblue', 'deepskyblue', 'red', 'orange', 'darkorchid', 'yellow'];

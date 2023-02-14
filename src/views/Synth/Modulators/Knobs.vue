@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { isProxy, toRaw } from 'vue';
+import { toRaw } from 'vue';
 export default {
   props: ["type", "id", "parameters"],
   name: "Knobs",

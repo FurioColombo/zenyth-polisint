@@ -9,8 +9,7 @@
 
 <script>
 import FilterChain from './FilterChain.vue'
-import * as Tone from "tone";
-import { isProxy, toRaw } from "vue";
+import { toRaw } from "vue";
 
 export default {
   name: "FilterHost",
