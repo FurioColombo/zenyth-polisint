@@ -8,8 +8,9 @@ const path = require("path");
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-      ? '/zenyth/'
+      ? '/zenyth-polisint/'
       : '/',
-  outputDir: path.resolve(__dirname, "docs"),
+  outputDir: path.resolve(__dirname, "dist"),
+  transpileDependencies: true,
 
 }
