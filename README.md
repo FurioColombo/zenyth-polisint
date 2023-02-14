@@ -11,7 +11,6 @@ Zenyth is thought as a playful yet powerful tool to to discover modular synthesi
 <p align="center">
     <a href="https://www.youtube.com/watch?v=3jTYMbAtMqI">Presentation Video</a>
     <br>
-[Demo](https://www.youtube.com/watch?v=cjMXcdHnGRU)
     <a href="https://www.youtube.com/watch?v=cjMXcdHnGRU">Demo</a>
 </p>
 <br>
