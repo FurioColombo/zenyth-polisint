@@ -125,6 +125,6 @@ ___
 <br>
 
 ## Team
-- Colombo Marco Furio - Routing, MyFx, Animated Graphics - `marcofurio.colombo@polimi.it`
-- Guglielmo Fratticioli - Front End Developement and UI Design - `guglielmo.fratticioli@mail.polimi.it`
-- Elia Pirrello - Audio Core Coding and Project Management - `elia.pirrello@mail.polimi.it`
+- Colombo Marco Furio - `marcofurio.colombo@polimi.it`
+- Guglielmo Fratticioli - `guglielmo.fratticioli@mail.polimi.it`
+- Elia Pirrello - `elia.pirrello@mail.polimi.it`
